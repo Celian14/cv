@@ -4,6 +4,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -21,13 +22,14 @@ body {
 }
 
 header {
-    background-color: #363636;
+    background-color: #298473;
     padding: 30px;
+    margin-bottom: 30px;
+
 }
 
 header ul {
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
 }
@@ -53,12 +55,23 @@ header ul li a:hover {
 
 /* Profil */
 
+.profil:hover {
+    box-shadow: 0 0 0 10px black, 0.8em 0.8em 8em #298473;
+}
+
 .profil {
     text-align: left;
     color: white;
-    width: 20%;
+    width: 30%;
     padding-top: 30px;
     margin: auto;
+    background-color: #298473;
+    border-radius: 20px;
+    transition: all 0.3s ease;
+    padding: 10px;
+    margin-bottom: 30px;
+    border: 10px solid hsla(0,0%,100%,.5);
+    
 }
 
 .profil h2 {
@@ -77,12 +90,22 @@ header ul li a:hover {
 
 /* Expérience */
 
+.experience:hover {
+    box-shadow: 0 0 0 10px black, 0.8em 0.8em 8em #298473;
+}
+
 .experience {
     text-align: left;
     color: white;
-    width: 20%;
+    width: 30%;
     padding-top: 30px;
     margin: auto;
+    background-color: #298473;
+    border-radius: 20px;
+    transition: all 0.3s ease;
+    padding: 10px;
+    margin-bottom: 30px;
+    border: 10px solid hsla(0,0%,100%,.5);
 }
 
 .experience h2 {
@@ -100,13 +123,22 @@ header ul li a:hover {
 }
 
 /*Job D'été*/
+.ete:hover {
+    box-shadow: 0 0 0 10px black, 0.8em 0.8em 8em #298473;
+}
 
 .ete{
     text-align: left;
     color: white;
-    width: 20%;
+    width: 30%;
     padding-top: 30px;
     margin: auto;
+    background-color: #298473;
+    border-radius: 20px;
+    transition: all 0.3s ease;
+    padding: 10px;
+    margin-bottom: 30px;
+    border: 10px solid hsla(0,0%,100%,.5);
 }
 
 .ete h2{
@@ -119,13 +151,22 @@ header ul li a:hover {
 }
 
 /*competences*/
+.competences:hover {
+    box-shadow: 0 0 0 10px black, 0.8em 0.8em 8em #298473;
+}
 
 .competences{
     text-align: left;
     color: white;
-    width: 20%;
+    width: 30%;
     padding-top: 30px;
     margin: auto;
+    background-color: #298473;
+    border-radius: 20px;
+    transition: all 0.3s ease;
+    padding: 10px;
+    margin-bottom: 30px;
+    border: 10px solid hsla(0,0%,100%,.5);
 }
 
 .competences h2 {
@@ -139,17 +180,26 @@ header ul li a:hover {
 }
 
 .competences a{
-    color: #0094ee;
+    color: white;
 }
 
 /*Soft Skills*/
+.soft:hover {
+    box-shadow: 0 0 0 10px black, 0.8em 0.8em 8em #298473;
+}
 
 .soft{
     text-align: left;
     color: white;
-    width: 20%;
+    width: 30%;
     padding-top: 30px;
     margin: auto;
+    background-color: #298473;
+    border-radius: 20px;
+    transition: all 0.3s ease;
+    padding: 10px;
+    margin-bottom: 30px;
+    border: 10px solid hsla(0,0%,100%,.5);
 }
 
 .soft h2 {
@@ -162,14 +212,24 @@ header ul li a:hover {
     transition: all 0.4s ease-in-out;
 }
 
+
 /*centre d'interet*/
+.centre:hover {
+    box-shadow: 0 0 0 10px black, 0.8em 0.8em 8em #298473;
+}
 
 .centre{
     text-align: left;
     color: white;
-    width: 20%;
+    width: 30%;
     padding-top: 30px;
     margin: auto;
+    background-color: #298473;
+    border-radius: 20px;
+    transition: all 0.3s ease;
+    padding: 10px;
+    margin-bottom: 30px;
+    border: 10px solid hsla(0,0%,100%,.5);
 }
 
 .centre h2 {
@@ -195,12 +255,22 @@ header ul li a:hover {
 
 /*formation*/
 
+.formations:hover {
+    box-shadow: 0 0 0 10px black, 0.8em 0.8em 8em #298473;
+}
+
 .formations{
     text-align: left;
     color: white;
-    width: 20%;
+    width: 30%;
     padding-top: 30px;
     margin: auto;
+    background-color:#298473;
+    border-radius: 20px;
+    transition: all 0.3s ease;
+    padding: 10px;
+    margin-bottom: 30px;
+    border: 10px solid hsla(0,0%,100%,.5);
 }
 
 .formations h2 {
@@ -212,3 +282,33 @@ header ul li a:hover {
     color: white;
     transition: all 0.4s ease-in-out;
 }
+
+/* Footer */
+footer {
+    background-color: #298473;
+    color: rgb(4, 3, 3);
+    padding: 10px;
+    text-align: left;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    box-shadow: 0 0 10px black;
+}
+
+footer .social-icons {
+    margin-top: 15px;
+    text-align: center;
+}
+
+footer .social-icons img {
+    width: 40px;
+    height: 40px;
+    margin: 0 10px;
+    transition: transform 0.3s ease;
+}
+
+footer .social-icons img:hover {
+    transform: scale(1.2);
+}
+
+
